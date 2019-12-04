@@ -1,11 +1,182 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Teko', sans-serif;
+    font-family: sans-serif;
+    color: black;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+nav.navbar.navbar-expand-lg.navbar-light.bg-white {
+    padding: 0;
+}
+
+div#menu-header ul li a {
+    font-size: 18px;
+    font-family: serif;
+}
+
+.right a p {
+    font-size: 20px;
+    color: white;
+    margin: 0;
+}
+
+.menu-top {
+    width: 100%;
+    position: relative;
+    background: black!important;
+}
+
+.right {
+    padding: 0px;
+    width: 100px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    text-align: center;
+    background: #e4555b;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media(max-width:990px) {
+    .right {
+        display: none;
+    }
+    .navbar-collapse ul {
+        text-align: center;
+    }
+    .navbar-collapse ul li {
+        border-bottom: 1px dotted gray;
+    }
+    .navbar-collapse ul li:hover {
+        background: #e4555b;
+    }
+}
+
+@media(min-width:1024px) {
+    .navbar-collapse ul li {
+        padding-right: 20px;
+    }
 }
 
 
 /* header */
 
+.banner {
+    width: 100%;
+    height: 620px;
+    background: #e4555b;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.bg {
+    width: 50%;
+    height: 100%;
+    background: #f4433626;
+    position: absolute;
+}
+
+html,
+body {
+    /* width: 100%; */
+    /* height: 100%; */
+}
+
+.info {
+    /* position: absolute; */
+    /* top: 0; */
+    /* right: 0; */
+    /* width: 100%; */
+    /* height: 100%; */
+    /* z-index: 2; */
+}
+
+.avatar {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    z-index: 2;
+}
+
+.avatar img.jc {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.jc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1.name.jc {
+    width: 100%;
+    z-index: 2;
+}
+
+.mouse {
+    position: absolute;
+    bottom: 0;
+    width: 40px;
+    height: 72px;
+    background: transparent;
+    border-radius: 43px;
+    border: 1px solid white;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    cursor: pointer;
+}
+
+.mouse::after {
+    width: 4px;
+    height: 8px;
+    background: white;
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
 
 /* end-banner */
+
+
+/* thongtin */
+
+.experience h1 {
+    font-size: 28px;
+    text-transform: uppercase;
+    background: url(../../images/ke.jpg) no-repeat bottom left;
+    display: inline;
+}
+
+h2.general {
+    font-size: 22px;
+}
+
+span.title {
+    font-size: 17px;
+    color: #E91E63;
+}
+
+.experience {
+    /* padding: 50px; */
+    /* width: 100%; */
+    /* height: 700px; */
+}
+
+
+/* end-thongtin */

@@ -5,52 +5,95 @@
     <title> Example </title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script type="text/javascript" src="1.js"></script>
+
     <link rel="stylesheet" href="vendor/font-awesome.css">
-    <link rel="stylesheet" href="vendor/js/1.js">
     <link rel="stylesheet" href="vendor/css/style.css">
+    <link rel="stylesheet" href="vendor/css/1.css">
     <link href="https://fonts.googleapis.com/css?family=Teko:300,400,500,600,700&display=swap" rel="stylesheet">
-
-
 </head>
-
 
 <body>
     <div class="menu-top">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white">
             <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="images/index_02.png" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu-header">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                <div class="collapse navbar-collapse" id="menu-header" style="z-index: 2;">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Giới thiệu <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Kinh nghiệm</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Sản phẩm</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Thông tin</a>
+                        </li>
 
-            </div>
-            <a class="navbar-brand" href="#">
-                <img src="images/index_02.png" alt="">
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Giới thiệu <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Kinh nghiệm</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Sản phẩm</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Kinh nghiệm</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Kinh nghiệm</a>
-                    </li>
-                </ul>
+                    </ul>
+                </div>
             </div>
         </nav>
+        <div class="right text-md-center">
+            <a href="">
+                <p>Hire me</p>
+            </a>
+        </div>
+    </div>
+    <!-- end-menu-top -->
+    <div class="banner">
+        <div class="bg"></div>
+        <div class="container">
+            <div class="row jc">
+                <div class="avatar mb-3">
+                    <img class="jc" src="images/ad22a3f230c0d79e8ed1.jpg" alt="">
+                </div>
+                <h1 class="name jc text-white">I'M THAO NGUYEN</h1>
+                <button class="btn btn-black" style="z-index: 1;">HIRE ME</button>
+                <div class="mouse"></div>
+            </div>
+        </div>
+    </div>
+    <!-- end-banner -->
+    <div class="experience" id="grade-levels">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-md-center">
+                    <h1>Kinh nghiệm & quá trình học</h1>
+                </div>
+                <div class="col-md-4">
+                    <h2 class="general">Quá trình <b>Học</b> </h2>
+                    <span class="title">Học mẫu giáo chim sẻ</span>
+                    <br><br>
+                    <span>1992 -1999 excepteur adipiscing rutrum inceptos</span>
+                    <br><br>
+                    <span>Conubia pariatur vestibulum dis possimus soluta explicabo nulla natoque senectus! Laoreet imperdiet! Quaerat est? Vehicula, rutrum! Quod nostrud!</span>
+                </div>
+                <div class="col-md-4">
+                    <img src="images/ad22a3f230c0d79e8ed1.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="col-md-4">
+                    <h2 class="general">Quá trình <b>Làm việc</b> </h2>
+                    <span class="title">Học mẫu giáo chim sẻ</span>
+                    <br><br>
+                    <span>1992 -1999 excepteur adipiscing rutrum inceptos</span>
+                    <br><br>
+                    <span>Conubia pariatur vestibulum dis possimus soluta explicabo nulla natoque senectus! Laoreet imperdiet! Quaerat est? Vehicula, rutrum! Quod nostrud!</span>
+                </div>
+            </div>
+        </div>
+    </div>
     </div>
     <script src="vendor/js/jquery.min.js"></script>
     <script src="vendor/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="vendor/js/1.js"></script>
 </body>
 
 </html>
